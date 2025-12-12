@@ -8,5 +8,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('clase-1');
+  parrafo = "Soy victor Vincitorio, quiero aprender angular porque es uno de los frameworks mas utilizados y creo que es una buena tecnologia para aprender!"
+  texto = "Apreta el boton para cambiarme!"
+  cambiar(){
+    alert("el texto ha sido cambiado!")
+    this.texto = "cambie!"
+  }
 }
